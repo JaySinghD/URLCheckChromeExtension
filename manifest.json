@@ -1,0 +1,35 @@
+{
+    "name": "URL Security",
+    "version": "0.1.0",
+    "description": "Ensures URLs are safe",
+    "permissions": ["storage", "webRequest", "declarativeNetRequest", "tabs", "notifications"],
+    "host_permissions": ["https://www.google.com/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://www.google.com/*"],
+        "js": ["contentScript.js"]
+      }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": [
+          "assets/delete.png",
+          "assets/save.png"
+        ],
+        "matches": ["https://www.google.com/*"]
+      }
+    ],
+    "action": {
+      "default_icon": {
+        "16": "assets/ext-icon.png",
+        "24": "assets/ext-icon.png",
+        "32": "assets/ext-icon.png"
+      },
+      "default_title": "URL Security",
+      "default_popup": "popup.html"
+    },
+    "manifest_version": 3
+}
