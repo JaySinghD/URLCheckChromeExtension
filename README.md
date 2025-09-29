@@ -27,9 +27,8 @@ A **prototype Google Chrome extension** that adds a ✅ or ❌ next to each Goog
 
 5. The extension should now appear in your extensions list and inject icons next to Google search results.
 
-Disclaimer
-
-This is an early prototype. The extension does not actually evaluate link safety yet. It only displays placeholder icons. Do not rely on it for security decisions.
+## Disclaimer
+⚠️ This is an early prototype. The extension does not actually evaluate link safety yet. It only displays placeholder icons. Do not rely on it for security decisions.
 
 ## License
 MIT License
