@@ -9,6 +9,10 @@ A **prototype Google Chrome extension** that adds a ✅ or ❌ next to each Goog
 - Demonstrates how the extension’s content script and popup UI work together.
 - Serves as a UI proof-of-concept for a future AI-powered malicious URL classifier.
 
+The following is an image that shows the extention's functionality:
+![gallery-1](https://github.com/user-attachments/assets/c3ae91e1-620f-4ab3-878b-706fa675d70e)
+
+
 ## Planned Next Steps
 - Integrate a **convolutional neural network (CNN)** model to classify URLs as benign or malicious.
 - Expand beyond Google search results to other pages.
