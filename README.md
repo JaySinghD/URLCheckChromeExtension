@@ -4,7 +4,7 @@
 - Demonstrates how the extension’s content script and popup UI work together.
 - Serves as a UI proof-of-concept for a future AI-powered malicious URL classifier.
 
-The following is an image that shows the extention's functionality:
+The following is an image that shows the extention's functionality (Proof of concept - does not show the actual CNN clasification):
 ![gallery-1](https://github.com/user-attachments/assets/c3ae91e1-620f-4ab3-878b-706fa675d70e)
 
 ## Planned Next Steps
