@@ -1,4 +1,7 @@
 # URLCheck Chrome Extension
+
+View the project report for the AI here: https://drive.google.com/file/d/1k_NVykaI5kkbhJYxllf-yXed2zbvIi6O/view?usp=sharing
+
 ## Features
 - Injects a checkmark or X beside Google search result links.
 - Demonstrates how the extension’s content script and popup UI work together.
